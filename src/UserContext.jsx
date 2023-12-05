@@ -35,7 +35,9 @@ export const UserStorage = ({ children }) => {
       const tokenRes = await fetch(url, options);
       if (!tokenRes.ok) {
         if (tokenRes.statusText.trim().length === 0) {
-          throw new Error('Error: Erro ao acessar, mensagem não identificada.');
+          throw new Error(
+            'Error: Erro ao acessar, usuário ou senha inválidos. Caso persista, entre em contato com o suporte.',
+          );
         } else {
           throw new Error(`Error: ${tokenRes.statusText}`);
         }
