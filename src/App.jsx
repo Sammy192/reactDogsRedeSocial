@@ -12,6 +12,8 @@ import Photo from './Components/Photo/Photo';
 import UserProfile from './Components/User/UserProfile';
 import NotFound from './Components/NotFound';
 
+export const BASE_URL = 'http://127.0.0.1:5173';
+
 const App = () => {
   return (
     <div>
