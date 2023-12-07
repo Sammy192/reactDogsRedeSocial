@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
@@ -12,7 +12,7 @@ import Photo from './Components/Photo/Photo';
 import UserProfile from './Components/User/UserProfile';
 import NotFound from './Components/NotFound';
 
-export const BASE_URL_GH_PAGES = 'reactDogsRedeSocial';
+export const BASE_URL = 'http://127.0.0.1:5173';
 
 const App = () => {
   return (
@@ -22,8 +22,8 @@ const App = () => {
           <Header />
           <main className="AppBody">
             <Routes>
-              <Route path="/reactDogsRedeSocial" element={<Home />} />
-              <Route path="/reactDogsRedeSocial/login/*" element={<Login />} />
+              <Route path="/" element={<Home />} />
+              <Route path="login/*" element={<Login />} />
               <Route
                 path="conta/*"
                 element={
