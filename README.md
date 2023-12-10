@@ -36,6 +36,9 @@ Validações de campos;
 Rotas protegidas;
 Possibilidade de comentar a foto.
 
+![image](https://github.com/Sammy192/reactDogsRedeSocial/assets/53224915/5d6cb880-41f6-40a3-b86c-e769e16df93a)
+
+
 ## Layout
 
 ![image](https://github.com/Sammy192/reactDogsRedeSocial/assets/53224915/4d5e071c-db45-42f3-be09-e92c7a5b434c)
