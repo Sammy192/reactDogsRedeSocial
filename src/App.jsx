@@ -17,7 +17,7 @@ export const BASE_URL = 'http://127.0.0.1:5173';
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/reactDogsRedeSocial/">
         <UserStorage>
           <Header />
           <main className="AppBody">
