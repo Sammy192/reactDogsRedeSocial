@@ -32,8 +32,11 @@ Utilizado: Framework React
           - CSS MODULE 
           - HTML 5 
           - JavaScript
+          
 Validações de campos;
+
 Rotas protegidas;
+
 Possibilidade de comentar a foto.
 
 ![image](https://github.com/Sammy192/reactDogsRedeSocial/assets/53224915/5d6cb880-41f6-40a3-b86c-e769e16df93a)
